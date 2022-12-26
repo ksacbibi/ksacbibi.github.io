@@ -1,0 +1,116 @@
+@import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.about{
+    background-color: #ddcabb;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mainwrap {
+        height: calc(100vh - 120px);
+        display: flex;
+
+        .right{
+            flex: 0.6;
+            padding-right: 30px;
+            position: relative;
+
+            .wrapper{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                @include mobile{
+                    padding-left: 0;
+                    align-items: center;
+                }
+    
+                h1{
+                    font-size: 60px;
+                    margin: 10px 0;
+                    font-family: 'Poppins', sans-serif;
+    
+                    @include mobile{
+                        font-size: 40px;
+                    }
+                }
+                h2{
+                    color: rgb(53, 53, 53);
+                    font-size: 35px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                p{
+                    font-size: 15px;
+                    color: #4c3829;
+                    font-family: 'Poppins', sans-serif;
+                    margin-top: 10px;
+
+                    @include mobile{
+                        font-size: 20px;
+                    }
+    
+                    .ityped-cursor{
+                        animation: blink 1s infinite;
+                    }
+    
+                    @keyframes blink {
+                        50%{
+                            opacity: 1;
+                        }
+                        100%{
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+    
+            a{
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
+    
+                img{
+                    width: 30px;
+                    animation: arrowBlink 2s infinite;
+                }
+    
+                @keyframes arrowBlink {
+                    100%{
+                        opacity: 0.1;
+                    }
+                }
+            }
+        }
+    
+        .left{
+            flex: 0.4;
+            overflow: hidden;
+    
+            .imgContainer{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                @include mobile{
+                    align-items: flex-start;
+                }
+    
+                img{
+                    height: 60vh;
+                    border: 2px solid black;
+    
+                    @include mobile{
+                        height: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
