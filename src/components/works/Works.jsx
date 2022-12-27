@@ -10,7 +10,7 @@ export default function Works() {
             title: "Mobile and Web Developer",
             time: "September 2022 - December 2022 (4 months)",
             desc:
-                ["• Worked on the development of various projects for large corporate clients, using mostly React, Angular, JavaScript/Typescript in conjunction with SVN and Gulp", "• Performed maintenance on company’s code libraries to increase efficiency and usability for future projects using NodeJS, TypeScript", "• Ensured projects meet accessibility standards and are properly traversed using screen readers"],
+                ["• Worked on the development of various projects for large corporate clients, using mostly React, Angular, JavaScript/TypeScript as well as version control systems such as TortoiseSVN and Git", "• Utilized NodeJS to perform maintenance on company’s code libraries to allow for more efficient use on future projects", "• Ensured project content meets accessibility standards and are properly traversed using screen readers"],
             linkLabel: "Rich Media Website",
             link: "https://www.richmedia.com/",
             img:

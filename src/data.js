@@ -1,6 +1,13 @@
 export const featuredPortfolio = [
     {
       id: 1,
+      title: "FlashStudy",
+      img:
+        "/assets/flashstudy.png",
+      link: "https://github.com/ksacbibi/flashstudy"
+    },
+    {
+      id: 2,
       title: "Monkey Bot",
       img:
         "/assets/monkeybot.png",
@@ -14,25 +21,18 @@ export const featuredPortfolio = [
     //   link: "https://github.com/ksacbibi/keyboardkompany"
     // },
     {
-      id: 2,
+      id: 3,
       title: "Kyleigh YouTube Channel",
       img:
         "/assets/kyleighyt.jpg",
       link: "https://www.youtube.com/channel/UCUsK73er4El_gQcHNE0U1VQ"
     },
     {
-      id: 3,
+      id: 4,
       title: "Poggy Woggy YouTube Channel",
       img:
         "/assets/poggywoggyyt.jpg",
       link: "https://www.youtube.com/channel/UCLuIIzcSTzuxWR8xKmUVg7A"
-    },
-    {
-      id: 4,
-      title: "TikTok Creator",
-      img:
-        "/assets/tiktok.jpg",
-      link: "https://www.tiktok.com/@kylghsbbt"
     },
     {
       id: 5,
@@ -46,6 +46,12 @@ export const featuredPortfolio = [
   export const personalPortfolio = [
     {
       id: 1,
+      title: "FlashStudy",
+      img: "/assets/flashstudy.png",
+      link: "https://github.com/ksacbibi/flashstudy"
+    },
+    {
+      id: 1,
       title: "Monkey Bot",
       img: "/assets/monkeybot.png",
       link: "https://github.com/ksacbibi/monkey-bot"
@@ -53,17 +59,17 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "The Men Portfolio",
-      img: "/assets/men.jpg",
+      img: "/assets/menprofile.png",
       link: "https://github.com/ksacbibi/men-profile"
     },
   ];
   
   export const schoolPortfolio = [
     {
-      // id: 1,
-      // title: "Kyleigh's Keyboards Website",
-      // img: "/assets/kyleighskeyboards.jpg",
-      // link: "https://github.com/ksacbibi/keyboardkompany"
+      id: 1,
+      title: "Kyleigh's Keyboards Website",
+      img: "/assets/kyleighskeyboards.jpg",
+      link: "https://github.com/ksacbibi/keyboardkompany"
     },
   ];
   

@@ -7,7 +7,7 @@ export default function Intro() {
             <div className="mainwrap">
                 <div className="left">
                     <div className="wrapper">
-                        <h2>test There, I'm</h2>
+                        <h2>Hi There, I'm</h2>
                         <h1>Kyleigh Sacbibit</h1>
                         <p>I'm a Systems Design Engineering student at the University of Waterloo with interests in software development and content creation.</p>
                     </div>
