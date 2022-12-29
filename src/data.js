@@ -95,13 +95,13 @@ export const featuredPortfolio = [
       // "/assets/twitch.jpg",
       // link: "https://www.twitch.tv/kypersbbt"
     // },
-    {
-      id: 3,
-      title: "TikTok Creator",
-      img:
-      "/assets/tiktok.jpg",
-      link: "https://www.tiktok.com/@kylghsbbt"
-    },
+    // {
+    //   id: 3,
+    //   title: "TikTok Creator",
+    //   img:
+    //   "/assets/tiktok.jpg",
+    //   link: "https://www.tiktok.com/@kylghsbbt"
+    // },
   ];
   
   export const photoPortfolio = [

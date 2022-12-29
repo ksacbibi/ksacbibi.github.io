@@ -24,7 +24,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                         <ContactPageIcon className="icon"/>
-                        <a href="">resume</a>
+                        <a href="https://drive.google.com/file/d/1Yiu4Mv2pmK75pgSJONBaULc1j5VmBBL4/view?usp=sharing" target="_blank" rel="noreferrer">resume</a>
                     </div>
                 </div>
                 <div className="right">
